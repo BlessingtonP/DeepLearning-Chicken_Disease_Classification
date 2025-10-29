@@ -45,6 +45,13 @@ Create stage_01_data_ingestion.py in the pipeline folder
 
 [Data valdation part] -is not required, because we have the data in the correct folder.
 
+Update the config.yaml file
+Then update the entity, config.entity
+Now update the configuration.py
+updata components.prepare_base_model.py
+Create pipeling
+
+
 
 
 
