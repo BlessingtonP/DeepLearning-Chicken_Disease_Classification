@@ -51,6 +51,31 @@ Now update the configuration.py
 updata components.prepare_base_model.py
 Create pipeling
 
+7] Prepare callbacks. This is expecially for Classification based model. Some metedatas will be saved here also.
+    Update the config.yaml
+    Update the entity, config.entity
+    Now update the configuration.py
+    updata components - prepare_callbacks.py
+    Create pipeline - For Preprare callbacks no Pipeline is required [BECAUSE THIS WILL HELP TO DO THE TRAINING]
+    MAIN - No Main, just start do the training
+
+8] Model Training
+    Update the config.yaml
+    Prepare the entity.
+    Now configuration.py
+    update components - training.py
+    create pipeline - stage_03_training.py
+    Main - 
+Important :
+    To see the tensorboard - 
+        tensorboard --logdir artifacts/prepare_callbacks/tensorboard_log_dir
+    Then ctrl + right click and open the local host site
+    We can view the graphs, if we give more than 1 epoch.
+
+
+
+
+
 
 
 
