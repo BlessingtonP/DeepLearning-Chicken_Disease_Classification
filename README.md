@@ -72,6 +72,18 @@ Important :
     Then ctrl + right click and open the local host site
     We can view the graphs, if we give more than 1 epoch.
 
+9] DVC yaml
+    dvc init
+        This creates dvcignore file and dvc folder
+    dvc repro
+        To execute, the application
+
+    Advantage is, it skips the part which is already executed.
+    This does not builds from the scartch
+
+    After compilation, this will generate a dvc.lock file -> This saves all the metadatas
+
+10] Prediction
 
 
 
